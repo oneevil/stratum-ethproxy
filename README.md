@@ -10,7 +10,7 @@
 
 5. Edit the `.env` file and change it to match your config.
 
-6. Run `npm start` or `npm server.js`
+6. Run `npm start` or `node server.js`
 
 7. In your miner config switch your remote host and port to point to your local host and port provided in your config. Make sure your local host is set to your public IP or your public host name.
 
