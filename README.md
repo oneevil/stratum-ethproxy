@@ -58,7 +58,7 @@ You can run it in a screen instance, or you can install pm2 to run your instance
 ## Docker container
 
 
-To build the docker image: `docker build -t no-dev-fee-stratum-proxy .`
+To build the docker image: `docker build -t stratum-ethproxy .`
 
 To run the docker image: `docker run -d --name my-stratum-proxy -e "REMOTE_HOST=eth.2miners.com" -e "REMOTE_PORT=2020" -e "REMOTE_PASSWORD=x" -p 2020:2020 stratum-ethproxy`
 
