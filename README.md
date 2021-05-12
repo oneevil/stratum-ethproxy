@@ -15,6 +15,7 @@
 7. In your miner config switch your remote host and port to point to your local host and port provided in your config. Make sure your local host is set to your public IP or your public host name.
 
 You can run it in a screen instance, or you can install pm2 to run your instance as a daemon.
+Note: This can be used for any stratum servers not just eth.
 
 ---
 
